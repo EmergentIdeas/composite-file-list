@@ -1,0 +1,35 @@
+{
+  "name": "composite-file-list",
+  "version": "1.0.0",
+  "description": "returns a list of files from a list of multiple directories as if they all came from directory",
+  "main": "composite-file-list.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha",
+	"testDebug": "node_modules/mocha/bin/mocha --inspect --inspect-brk"
+	
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmergentIdeas/composite-file-list.git"
+  },
+  "keywords": [
+    "file",
+    "system",
+    "composite",
+    "list"
+  ],
+  "author": "Dan Kolz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmergentIdeas/composite-file-list/issues"
+  },
+  "homepage": "https://github.com/EmergentIdeas/composite-file-list#readme",
+  "dependencies": {
+    "commingle": "0.0.4",
+    "file-sink": "^1.0.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
